@@ -18,11 +18,14 @@
     <h1>Tasker</h1>
     <p>A web application to keep goals in mind!</p>
     </div>
-    <button id="btn1">New Task &#xe109;</button>
-    
-    <div id="confirmFlyout" data-win-control="WinJS.UI.Flyout" aria-label="{Confirm purchase flyout}">
-    <div>Your account will be charged $252.</div>
-    <button id="confirmButton">Complete Order</button>
+    <button id="addTask">New Task &#xe109;</button>
+    <div id="taskList" class="output">
+    </div>
+	
+    <div id="addTaskFlyout" data-win-control="WinJS.UI.Flyout">
+    <div>New Task Info</div>
+	<input id="taskName" type="text"  placeholder="Enter your task name">
+	<button id="createTask">Create Task</button>	
 </div>
     
 </body>
