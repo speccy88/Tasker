@@ -1,25 +1,31 @@
 body {
-    width: 1000px;
-    margin: auto;
 }
 
 .header {
+    width: 500px;
+    margin: auto;
     text-align: center;
     margin-bottom: 40px;
 }
 
 #taskList p {
     height: 30px;
-	font-size: 150%;
-	width: 100px;
-	float: left;
-	text-align: center;
-	margin-right: 5px;
-	vertical-align: middle;
+    font-size: 150%;
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    vertical-align: middle;
     border: 3px dotted white;
-}	
+}
 
 #taskList p:hover {
     border: 3px solid red;
-	background-color: grey;
-}	
+    background-color: grey;
+}
+
+#addTask {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
